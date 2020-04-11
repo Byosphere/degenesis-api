@@ -18,6 +18,7 @@ let characterSchema = new Schema({
     sporulation: Number,
     blessures: Number,
     trauma: Number,
+    exp: Number,
     attributes: [{
         _id: false,
         id: Number,
