@@ -52,7 +52,13 @@ let characterSchema = new Schema({
     }],
     notes: [String],
     belief: String,
-    behavior: String
+    behavior: String,
+    origins: [{
+        _id: false,
+        id: Number,
+        value: Number,
+        name: String
+    }]
 });
 
 module.exports = mongoose.model('Character', characterSchema);
