@@ -58,7 +58,11 @@ let characterSchema = new Schema({
         id: Number,
         value: Number,
         name: String
-    }]
+    }],
+    pet: {
+        species: String,
+        name: String
+    }
 });
 
 module.exports = mongoose.model('Character', characterSchema);
