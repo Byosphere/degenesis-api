@@ -62,7 +62,8 @@ let characterSchema = new Schema({
     pet: {
         species: String,
         name: String
-    }
+    },
+    bagsize: Number
 });
 
 module.exports = mongoose.model('Character', characterSchema);
