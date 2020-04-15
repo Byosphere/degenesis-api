@@ -48,7 +48,10 @@ let characterSchema = new Schema({
         tech: Number,
         defense: Number,
         degats: String,
-        title: String
+        title: String,
+        mani: Number,
+        range: Number,
+        value: Number
     }],
     notes: [String],
     belief: String,
